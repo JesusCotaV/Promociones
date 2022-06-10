@@ -1,0 +1,268 @@
+.contenedor{
+    font-size: large;
+}
+
+body{
+    background-color: rgb(156, 119, 82);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-shadow: -3px -3px 7px #946f48, 2px 2px 5px rgb(0 0 0 / 70%);
+    font-size: 50px;
+    margin-top: 6rem;
+}
+
+table, th, td {
+    font-family: "Poppins", sans-serif;
+    border-spacing: 0px;
+    text-align: center;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+thead .fecha{
+    width: 500px;
+}
+
+thead :first-child{
+    width: 1200px;
+}
+
+thead :last-child{
+    width: 500px;
+}
+
+th{
+    background-color: #85c2b5;
+    text-align: left;
+    color: white;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.container-diseño{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    box-shadow: -3px -3px 7px transparent, 2px 2px 5px rgb(0 0 0 / 100%); 
+    justify-content: center;
+}
+
+.container-solicitudes{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    box-shadow: -3px -3px 7px transparent, 2px 2px 5px rgb(0 0 0 / 100%); 
+}
+
+.container-solicitudes-table{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-solicitudes-table .enviar-campaña{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    box-shadow: -3px -3px 7px #d8d8d8, 2px 2px 5px rgb(0 0 0 / 80%); 
+    background-color: rgb(231, 131, 1);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    width: 140px;
+}
+
+.container-solicitudes-table .enviar-campaña:hover{
+    background-color: rgb(202, 115, 0);
+}
+
+.container-solicitudes-table .enviar-campaña:active{
+    background-color: rgb(184, 104, 0);
+    transform: translateY(1px);
+}
+
+.nav-encargado{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-encargado a{
+    border: 1px solid;
+    text-decoration: none;
+    background-color: transparent;
+    border-width: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+.nav-encargado a:hover{
+    background-color: #85c2b5;
+    border-color: #85c2b5;
+}
+
+.nav-encargado > .active > a { 
+    background-color: #85c2b5;
+    border-color: #85c2b5;
+}
+
+textarea{
+    resize:none;
+    outline: none;
+}
+
+.input-diseño{
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.input-diseño-enviar{
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    box-shadow: -3px -3px 7px #d8d8d8, 2px 2px 5px rgb(0 0 0 / 80%); 
+    background-color: rgb(0, 177, 147);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: 8.5rem;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 1.2rem;
+}
+
+.label-detalles{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.container-diseño-datos input:hover{
+    background-color: rgb(0, 156, 130);
+}
+
+.container-diseño-datos input:active{
+    background-color: rgb(0, 116, 96);
+    transform: translateY(1px);
+}
+
+.show {
+    display: none;
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+.container-fecha{
+    background-color: rgb(182, 138, 82);
+    border: 2px solid transparent;
+    width: 500px;
+    height: 300px;
+    margin: 25 auto;
+    box-sizing: content-box;
+    box-shadow: -3px -3px 7px rgb(0 0 0 / 50%), 2px 2px 5px rgb(0 0 0 / 80%); 
+}
+
+.container-reporte{
+    background-color: antiquewhite;
+    border: 2px solid transparent;
+    width: 1000px;
+    height: 700px;
+    margin: 25 auto;
+    box-sizing: content-box;
+    box-shadow: -3px -3px 7px rgb(0 0 0 / 50%), 2px 2px 5px rgb(0 0 0 / 80%); 
+}
+
+.chart{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-reporte input{
+    margin-top: 2rem;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    box-shadow: -3px -3px 7px #d8d8d8, 2px 2px 5px rgb(0 0 0 / 80%);
+    background-color: rgb(231, 131, 1);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.container-reporte input:hover{
+    background-color: rgb(202, 115, 0);
+}
+
+.container-reporte input:active{
+    background-color: rgb(184, 104, 0);
+    transform: translateY(1px);
+}
+
+.buscar-input{
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    box-shadow: -3px -3px 7px #d8d8d8, 2px 2px 5px rgb(0 0 0 / 80%);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.div-buscar{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
