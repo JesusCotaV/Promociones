@@ -12,10 +12,10 @@ app.use(cors());
 
 //Mysql
 const conn = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'promociones',
+    host: 'us-cdbr-east-05.cleardb.net',
+    user: 'bb1ec472ec6a00',
+    password: '44544233',
+    database: 'heroku_e3f61f3e1572cb7',
 });
 
 conn.connect(function (err) {
